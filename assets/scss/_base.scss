@@ -1,0 +1,105 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    .upperContent {
+        background-image: url('../imgs/top.jpg');
+        height: 500px;
+        background-size: cover;
+        .rightDiv {
+            float: left;
+            width: 50%;
+            height: 100%;
+            div {
+                margin: 200px 0;
+                float: right;
+                color: white;
+                text-align: right;
+                a,
+                a:hover,
+                a:active {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.moreBtn {
+    border-radius: 3rem;
+    bottom: 20px !important;
+    position: absolute !important;
+    color: #1dc156 !important;
+    font-weight: 600;
+    background-color: white;
+    border-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .moreBtn {
+        border-radius: 3rem;
+        position: relative !important;
+        top: 10px;
+        color: #1dc156 !important;
+        font-weight: 600;
+        background-color: white;
+        border-color: white;
+    }
+}
+
+.serverOne {
+    color: #987bbb;
+}
+
+.serverTwo {
+    color: #e7737e;
+}
+
+.serverBtnOne {
+    border-radius: 100%;
+    float: left !important;
+    color: white !important;
+    background-color: #987bbb;
+    bottom: 40px !important;
+    position: relative !important;
+}
+
+.serverBtnTwo {
+    background-color: #e7737e;
+}
+
+.seeMore {
+    border-radius: 3rem; // bottom: 20px !important;
+    // position: absolute !important;
+    color: white !important;
+    font-weight: 600;
+    background-color: #1dc156;
+    border-color: #1dc156;
+}
+
+.support {
+    color: #1dc156;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #1b1b1c;
+    text-align: center;
+   
+        .link{
+            
+            color: white !important;
+            font-weight: 500 !important;
+            margin-left: 10px;
+            i{
+                font-size: 35px !important;
+            }
+        }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .col-xs-12{
+        text-align: center !important;
+    }
+}
